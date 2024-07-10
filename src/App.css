@@ -6,7 +6,7 @@
 }
 
 .banner {
-  background-image: url('./BannerImage.jpg');
+  background-image: url('../Assets/BannerImage.jpg');
   background-size: cover;
   background-position: center;
   height: 100px;

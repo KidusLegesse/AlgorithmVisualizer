@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Algorithm Visualizer Website ⛵ ⚓
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚤[Click this link to be directed to the website.](https://KidusLegesse.github.io/TierList)
 
-## Available Scripts
+🗺️**Website description:** A tool that can help visualize four different graph traversal algorithms (Dijkstra's , Breadth-First Search (BFS), Depth-First Search (DFS), and A*) through simulating a boat ⛵ in the ocean attempting to find the best path to get to the the treasure :trophy:.
 
-In the project directory, you can run:
+🌊**Features:** Users can click on any open space in the ocean/map to place icebergs 🏔️❄️ which are obstacles for the boat. Clicking on an iceberg that is already placed will result in removing that particular iceberg. Along with that there is a drop down menu with all four of the algorithm options and once an algorithm is chosen there is a side panel (which can be toggled to be shown or hidden) that displays the exact implementation the algorithm is running. Furthermore once the user runs the simulation of an algorithm the path it found will be highlighted on the map with its unique color to help distinguish different paths (Dijkstra's 🟠, BFS 🟣, DFS 🔴, A* 🟢). 
 
-### `npm start`
+🗝️**Explanation of each button:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:twisted_rightwards_arrows:Randomize - Places the treasure and the boat on random points on the map (maintains a distance of at least 10 nodes between the two).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:rewind:Reset - Places the treasure and boat back to their original positions.
 
-### `npm test`
+:twisted_rightwards_arrows:Clear IceBergs - Removes all of the IceBergs that were placed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:no_entry_sign:Clear Path - Removes the highlighted path of previous algorithms to clean up the map.
 
-### `npm run build`
+❌Clear All - A combination of the other two clear buttons (clears everything of the map).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:runner:Run - Starts the visualization of the selected algorithm.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+:vertical_traffic_light:Stop - Run button transitions to a stop button once the algorithm is being visualized so clicking to will stop the simulation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔧🔩**Libraries and Tools:** NodeJs, React, JavaScript, HTML, CSS, react-codemirror2, GitHub pages.
 
-### `npm run eject`
+:construction:**Additional information:**
+While the algorithm is running unless the user clicks the stop button you cannot place any Icebergs, select another algorithm, and click any button aside from the Stop button. Also there is a swaying animation applied to the boat and IceBergs which also have a rippling animation to give the sense that they are floating in the water.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:art:**User Interface:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1440" alt="Website Interface Screenshot" src="https://github.com/KidusLegesse/AlgorithmVisualizer/Assets/WebsiteDemo">
