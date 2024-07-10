@@ -144,6 +144,7 @@
   
  .Run .icon, .Stop .icon{
   transform: translateX(50px);
+  border-left: 1px solid #ffffff;
  }
  
  .Run:hover {

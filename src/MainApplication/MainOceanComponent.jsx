@@ -110,7 +110,6 @@ export default class MainOceanComponent extends Component {
       if (i === nodesVisted.length) {
         timeouts.push(setTimeout(() => {
           this.showPath(pathOfAlgo, algorithm);
-          this.setState({ isRunning: true, stopRunning: false });
         }, 10 * i));
         break;
       }
