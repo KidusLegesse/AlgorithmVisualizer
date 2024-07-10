@@ -2,7 +2,7 @@
 
 🚤[Link to the website.](https://kiduslegesse.github.io/AlgorithmVisualizer/)
 
-🗺️**Website description:** A tool that can help visualize four different graph traversal algorithms (Dijkstra's , Breadth-First Search (BFS), Depth-First Search (DFS), and A*) through simulating a boat ⛵ in the ocean attempting to find the best path to get to the the treasure :trophy:.
+🗺️**Website description:** A tool that can help visualize four different graph traversal algorithms (Dijkstra's , Breadth-First Search (BFS), Depth-First Search (DFS), and A*) through simulating a boat ⛵ in the ocean attempting to avoid icebergs 🏔️❄️ while trying to find the best path to the treasure :trophy:.
 
 🌊**Features:** Users can click on any open space in the ocean/map to place icebergs 🏔️❄️ which are obstacles for the boat. Clicking on an iceberg that is already placed will result in removing that particular iceberg. Along with that there is a drop down menu with all four of the algorithm options and once an algorithm is chosen there is a side panel (which can be toggled to be shown or hidden) that displays the exact implementation the algorithm is running. Furthermore once the user runs the simulation of an algorithm the path it found will be highlighted on the map with its unique color to help distinguish different paths (Dijkstra's 🟠, BFS 🟣, DFS 🔴, A* 🟢). 
 
@@ -29,4 +29,4 @@ While the algorithm is running unless the user clicks the stop button you cannot
 
 :art:**User Interface:**
 
-<img width="1440" alt="Website Interface Screenshot" src="https://github.com/KidusLegesse/AlgorithmVisualizer/Assets/WebsiteDemo">
+<img width="1116" alt="Website Interface Screenshot" src="https://github.com/KidusLegesse/AlgorithmVisualizer/assets/121209291/6b54d401-aec8-492f-88a2-ead1752b688e">
