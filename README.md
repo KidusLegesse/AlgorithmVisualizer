@@ -1,6 +1,6 @@
 # Algorithm Visualizer Website ⛵ ⚓
 
-🚤[Click this link to be directed to the website.](https://KidusLegesse.github.io/TierList)
+🚤[Link to the website.](https://kiduslegesse.github.io/AlgorithmVisualizer/)
 
 🗺️**Website description:** A tool that can help visualize four different graph traversal algorithms (Dijkstra's , Breadth-First Search (BFS), Depth-First Search (DFS), and A*) through simulating a boat ⛵ in the ocean attempting to find the best path to get to the the treasure :trophy:.
 
