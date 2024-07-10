@@ -1,0 +1,50 @@
+.panel {
+  position: fixed;
+  right: -400px;
+  top: 148px;
+  width: 400px;
+  height: 570px; 
+  background-color: #282c34;
+  z-index: 1000;
+  transition: right 0.4s ease-in-out;
+}
+  
+  .panel.open {
+    right: 0;
+  }
+  
+  
+  .CodeMirror {
+    height: 100% !important;
+    font-size: 12px;
+  }
+  
+  .toggle {
+    position: absolute;
+    left: -15px; 
+    top: 210px;
+    transform: translateY(-50%);
+    width: 16px; 
+    height: 28px; 
+    background-color: #6C0345;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .arrow {
+    position: relative;
+    display: block;
+    border-style: solid;
+    border-width: 5px 0 5px 7.5px;
+    border-color: transparent transparent transparent #fff;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .arrow.open {
+    transform: rotate(-180deg);
+  }
+  

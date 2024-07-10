@@ -1,0 +1,186 @@
+.container{
+  margin-top: 10px;
+  background-color: #74b9ff;
+  margin-right: 420px;
+  margin-left: 10px;
+}
+
+.button-container {
+  margin-top: 9px;
+  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.clearIceBergs, .ClearAll , .ClearPath, .Randomize, .Run, .Reset , .Stop {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  background: #6C0345;
+  position: relative;
+ }
+ 
+.clearIceBergs span, .Randomize span, .ClearPath span, .Run span, .Reset span, .Stop span, .ClearAll span{
+  transition: 200ms;
+ }
+ 
+ .clearIceBergs .text , .ClearAll .text , .ClearPath .text, .Randomize .text, .Run .text, .Reset .text, .Stop .text {
+  transform: translateX(10px);
+  color: white;
+  font-weight: bold;
+ }
+ 
+ .clearIceBergs .icon , .ClearAll .icon , .ClearPath .icon, .Randomize .icon, .Run .icon, .Reset .icon, .Stop .icon {
+  position: absolute;
+  border-left: 1px solid #c41b1b;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .clearIceBergs svg , .ClearAll svg , .ClearPath svg, .Randomize svg, .Run svg, .Reset svg, .Stop svg {
+  width: 15px;
+  fill: #eee;
+ }
+ 
+ .clearIceBergs:hover , .ClearPath:hover, .Randomize:hover, .Reset:hover {
+  background: #6C0345;
+ }
+ 
+ .clearIceBergs:hover .text, .ClearAll:hover .text , .ClearPath:hover .text, .Randomize:hover .text, .Run:hover .text, .Reset:hover .text, .Stop:hover .text {
+  color: transparent;
+ }
+ 
+ .clearIceBergs:hover .icon, .Randomize:hover .icon, .ClearPath:hover .icon, .ClearAll:hover .icon, .Run:hover .icon, .Stop:hover .icon, .Reset:hover .icon {
+  border-left: none;
+  transform: translateX(0);
+ }
+ 
+ .clearIceBergs:active .icon svg, .Stop:active .icon svg, .Run:active .icon svg, .ClearAll:active .icon svg, .ClearPath:active .icon svg, .CleaIceBergs:active .icon svg {
+  transform: scale(0.8);
+ }
+
+ .clearIceBergs {
+  width: 145px;
+  height: 30px;
+ }
+
+ .clearIceBergs .icon {
+  transform: translateX(110px);
+ }
+
+ .clearIceBergs:hover .icon {
+  width: 140px;
+ }
+
+
+ .Randomize {
+  width: 130px;
+  height: 30px;
+ }
+  
+ .Randomize .icon {
+  transform: translateX(90px);
+ }
+ 
+ .Randomize:hover .icon {
+  width: 120px;
+ }
+  
+ .ClearPath {
+  width: 120px;
+  height: 30px;
+ }
+ 
+ .ClearPath .icon {
+  transform: translateX(82px);
+ }
+
+ .ClearPath:hover .icon {
+  width: 112px;
+ } 
+
+ .ClearAll {
+  width: 110px;
+  height: 30px;
+ }
+ 
+ .ClearAll .icon {
+  transform: translateX(70px);
+ }
+ 
+ .ClearAll:hover {
+  background: #ff3636;
+ }
+  
+ .ClearAll:hover .icon {
+  width: 100px;
+ }
+ 
+ .Reset {
+  width: 100px;
+  height: 30px;
+ }
+
+ .Reset .icon {
+  transform: translateX(55px);
+ }
+ 
+ .Reset:hover .icon {
+  width: 150px;
+  transform: translateX(-30px);
+ }
+ 
+ .Run {
+  width: 90px;
+  height: 30px;
+  background: #06ac17;
+ }
+  
+ .Run .icon, .Stop .icon{
+  transform: translateX(50px);
+ }
+ 
+ .Run:hover {
+  background: #06ac17;
+ }
+ 
+ .Run:hover .icon, .Stop:hover .icon {
+  width: 80px;
+ }
+ 
+ .Stop {
+  width: 90px;
+  height: 30px;
+  background: #f90000;
+ }
+  
+ .Stop:hover {
+  background: #f90000;
+ }
+  
+ .dropdown {
+  position: fixed;
+  right: 220px;
+  top: 110px;
+}
+
+#algorithmSelect {
+  width: 180px;
+  height: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  background: #6C0345;
+  position: relative;
+  color: #eee;
+  font-size: 13px;
+}
